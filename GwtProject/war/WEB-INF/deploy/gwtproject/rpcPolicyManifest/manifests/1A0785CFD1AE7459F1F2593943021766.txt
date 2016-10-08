@@ -1,0 +1,2 @@
+serviceClass: com.jaosn.gwtproject.client.GreetingService
+path: FF9136D8ADFD6636294465525E92F8D6.gwt.rpc
