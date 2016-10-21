@@ -16,6 +16,16 @@
     <url-pattern>/gwtproject/greet</url-pattern>
   </servlet-mapping>
   
+    <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.jaosn.gwtproject.server.HelloServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/Hello</url-pattern>
+  </servlet-mapping>
+  
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>GwtProject.html</welcome-file>
