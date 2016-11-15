@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui"
+    xmlns:c1="urn:import:com.jaosn.gwtproject.client.widget">
+    <ui:style>
+        .v-middle {
+        	vertical-align: middle;
+        }
+    </ui:style>
+    <g:FocusPanel ui:field="basePanel">
+        <g:HTMLPanel ui:field="mainPanel">
+            <table cellspacing="0" cellpadding="0"> <!-- REF-20131217:use table for IE problem -->
+                <tr>
+                    <td>
+                        <g:HorizontalPanel ui:field="headerHp" styleName="headerPanel headerSVC">
+                            <g:HorizontalPanel styleName="{style.v-middle}">
+                                <g:Label ui:field="title" styleName="headerText" />
+                                <g:Label></g:Label>
+                                <g:Label ui:field="datakey" styleName="headerText2" />
+                            </g:HorizontalPanel>
+                            <g:HorizontalPanel styleName="buttonGroup">
+                            	<g:Label ui:field="counter" visible="false"/>
+                                <g:Image ui:field="closeBtn" url="images/icons/icon_close.png" styleName="icon" />
+                            </g:HorizontalPanel>
+                        </g:HorizontalPanel>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <c1:SvcScrollPanel ui:field="scrollArea" styleName="popupBackground" />
+                    </td>
+                </tr>
+            </table>
+        </g:HTMLPanel>
+    </g:FocusPanel>
+</ui:UiBinder> 
