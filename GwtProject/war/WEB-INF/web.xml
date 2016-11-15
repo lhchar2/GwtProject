@@ -5,7 +5,7 @@
          version="2.5"
          xmlns="http://java.sun.com/xml/ns/javaee">
 
-  <!-- Servlets -->
+  <!-- Servlets jason -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
     <servlet-class>com.jaosn.gwtproject.server.GreetingServiceImpl</servlet-class>
