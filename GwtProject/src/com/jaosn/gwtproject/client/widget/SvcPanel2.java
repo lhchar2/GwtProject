@@ -18,7 +18,7 @@ import com.google.gwt.user.client.ui.ScrollPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.jaosn.gwtproject.client.feature.IsReloadable;
-import com.pccw.springboard.svc.shared.enums.SvcContent;
+import com.jaosn.gwtproject.shared.enums.SvcContent;
 
 @Deprecated
 public class SvcPanel2 extends FocusPanel {

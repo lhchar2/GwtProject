@@ -3,7 +3,7 @@ package com.jaosn.gwtproject.shared.enums;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pccw.springboard.svc.shared.utils.StringUtils;
+import com.jaosn.gwtproject.shared.utils.StringUtils;
 
 public enum CallLogSkin {
 	SYSTEM("System Default", CallNatureFieldSkin.SYSTEM),

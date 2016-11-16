@@ -5,8 +5,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.pccw.springboard.svc.shared.model.DFormSearchHistoryDTO;
-
 public enum CustGroup {
 	MASS("MASS"), // also has Mass(Special)
 	PREMIER("PREMIER"), 
@@ -58,28 +56,5 @@ public enum CustGroup {
 		return map;
 	}
 	
-	public static boolean isPremier(DFormSearchHistoryDTO searchDTO) {
-		if (searchDTO != null) {
-			if (searchDTO.getCustGroup() == CustGroup.P0 
-				|| searchDTO.getCustGroup() == CustGroup.P0T
-				|| searchDTO.getCustGroup() == CustGroup.P0N
-				|| searchDTO.getCustGroup() == CustGroup.P1
-				|| searchDTO.getCustGroup() == CustGroup.P1P
-				|| searchDTO.getCustGroup() == CustGroup.P1S
-				|| searchDTO.getCustGroup() == CustGroup.P1SP
-				|| searchDTO.getCustGroup() == CustGroup.P1T
-				|| searchDTO.getCustGroup() == CustGroup.P1N
-				|| searchDTO.getCustGroup() == CustGroup.P2
-				|| searchDTO.getCustGroup() == CustGroup.P2P
-				|| searchDTO.getCustGroup() == CustGroup.P2S
-				|| searchDTO.getCustGroup() == CustGroup.P2SP
-				|| searchDTO.getCustGroup() == CustGroup.P2T
-				|| searchDTO.getCustGroup() == CustGroup.P2N
-				|| searchDTO.getCustGroup() == CustGroup.P3
-				|| searchDTO.getCustGroup() == CustGroup.PREMIER) {
-				return true;
-			}
-		}
-		return false;
-	}
+	
 }

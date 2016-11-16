@@ -5,7 +5,6 @@ import java.util.Date;
 import com.google.gwt.i18n.client.DateTimeFormat;
 import com.google.gwt.user.datepicker.client.DateBox;
 import com.google.gwt.user.datepicker.client.DateBox.Format;
-import com.jaosn.gwtproject.shared.exception.FieldValidationException;
 
 public class DateUtils {
 
@@ -73,19 +72,19 @@ public class DateUtils {
 		return result;
 	}
 
-	public static Date addTimeToDate(Date date, String time)
-			throws FieldValidationException {
-		if (date != null && StringUtils.isNotBlankAfterTrim(time)) {
-			try {
-				int hours = Integer.valueOf(time.substring(0, 2));
-				int minutes = Integer.valueOf(time.substring(3, 5));
-				return addMinutesToDate(addHoursToDate(date, hours), minutes);
-			} catch (Exception e) {
-				return date;
-			}
-		}
-		return date;
-	}
+//	public static Date addTimeToDate(Date date, String time)
+//			throws FieldValidationException {
+//		if (date != null && StringUtils.isNotBlankAfterTrim(time)) {
+//			try {
+//				int hours = Integer.valueOf(time.substring(0, 2));
+//				int minutes = Integer.valueOf(time.substring(3, 5));
+//				return addMinutesToDate(addHoursToDate(date, hours), minutes);
+//			} catch (Exception e) {
+//				return date;
+//			}
+//		}
+//		return date;
+//	}
 	
 	@SuppressWarnings("deprecation")
 	public static boolean isWithinCertainDaysBefore(Date date, int days) {

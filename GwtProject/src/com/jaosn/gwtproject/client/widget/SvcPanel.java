@@ -21,7 +21,7 @@ import com.jaosn.gwtproject.client.feature.HasMinWidgetWidth;
 import com.jaosn.gwtproject.client.feature.IsReloadable;
 import com.jaosn.gwtproject.client.feature.IsSvcPanel;
 import com.jaosn.gwtproject.client.feature.IsSvcPanelContent;
-import com.pccw.springboard.svc.shared.enums.SvcContent;
+import com.jaosn.gwtproject.shared.enums.SvcContent;
 
 public class SvcPanel extends FocusPanel implements IsSvcPanel, ProvidesResize, RequiresResize {
 	

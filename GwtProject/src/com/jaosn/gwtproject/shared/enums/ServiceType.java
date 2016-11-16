@@ -1,6 +1,6 @@
 package com.jaosn.gwtproject.shared.enums;
 
-import com.pccw.springboard.svc.shared.utils.StringUtils;
+import com.jaosn.gwtproject.shared.utils.StringUtils;
 
 public enum ServiceType {
 	FSA("IMS", "FSA"), MRT("3G", "MRT"), 

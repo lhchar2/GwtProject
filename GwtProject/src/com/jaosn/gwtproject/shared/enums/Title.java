@@ -3,7 +3,7 @@ package com.jaosn.gwtproject.shared.enums;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pccw.springboard.svc.shared.utils.StringUtils;
+import com.jaosn.gwtproject.shared.utils.StringUtils;
 
 public enum Title {
 	MR, MRS, MS, MDM, DR, PROF, REV, CO;

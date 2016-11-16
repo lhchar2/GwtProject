@@ -1,7 +1,7 @@
 package com.jaosn.gwtproject.client.feature;
 
-import com.pccw.springboard.svc.shared.enums.SvcContent;
-import com.pccw.springboard.svc.shared.enums.SvcView;
+import com.jaosn.gwtproject.shared.enums.SvcContent;
+import com.jaosn.gwtproject.shared.enums.SvcView;
 
 public interface IsSvcPage {
 	
